@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Tetris</title>
+<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<link href="css/tetris.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="mainContainer">
+  
+  <div id="menu">
+    <h1><img src="imgs/gintama-logo-gif.gif" alt="Gintama"><br/>Tetris</h1>
+    <p><canvas id="upcoming"></canvas></p>
+    <p id="start">Press 'Spacebar' to play</p>
+  </div>
+  
+  <div id="tetrisGame">
+  	<div id="numbers">
+        <div id="scoreArea"><p>Score:<br/><span id="score">00000</span></p></div>
+    	<div id="rowArea"><p>Rows:<br/><span id="rows">0</span></p></div>
+    </div>
+    <canvas id="canvas"> Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element </canvas>
+  </div>
+  
+  <div class="clear">&nbsp;</div>
+  
+</div>
+<script src="js/stats.js"></script> 
+<script src="js/tetris.js"></script>
+</body>
+</html>
