@@ -1,24 +1,13 @@
-Javascript Tetris
-=================
+NOBUNAGA'S REGURGITATION
+========================
 
-An HTML5 Tetris Game
+An HTML5 Tetris Game originally created by @jakesgordon
 
- * [play the game](http://codeincomplete.com/projects/tetris/)
- * read a [blog article](http://codeincomplete.com/posts/2011/10/10/javascript_tetris/)
- * view the [source](https://github.com/jakesgordon/javascript-tetris)
+ * [play the game](http://sandbox.deafinbothears.com/gintama-tetris/)
+ * Read a [blog article](http://codeincomplete.com/posts/2011/10/10/javascript_tetris/)
+ * View the original [source](https://github.com/jakesgordon/javascript-tetris)
 
 >> _*SUPPORTED BROWSERS*: Chrome, Firefox, Safari, Opera and IE9+_
-
-FUTURE
-======
-
- * menu
- * animation and fx
- * levels
- * high scores
- * touch support
- * music and sound fx
-
 
 License
 =======
