@@ -28,7 +28,7 @@
     var KEY     = { ESC: 27, SPACE: 32, LEFT: 37, UP: 38, RIGHT: 39, DOWN: 40 },
         DIR     = { UP: 0, RIGHT: 1, DOWN: 2, LEFT: 3, MIN: 0, MAX: 3 },
         stats   = new Stats(),
-        canvas  = get('canvas'),
+        canvas  = get('canvasTetris'),
         ctx     = canvas.getContext('2d'),
         ucanvas = get('upcoming'),
         uctx    = ucanvas.getContext('2d'),
@@ -69,13 +69,13 @@
     //
     //-------------------------------------------------------------------------
 
-    var i = { id: 'i', size: 4, blocks: [0x0F00, 0x2222, 0x00F0, 0x4444], color: '#494844'  };
-    var j = { id: 'j', size: 3, blocks: [0x44C0, 0x8E00, 0x6440, 0x0E20], color: '#c0b9a6'  };
-    var l = { id: 'l', size: 3, blocks: [0x4460, 0x0E80, 0xC440, 0x2E00], color: '#6d5457'	};
-    var o = { id: 'o', size: 2, blocks: [0xCC00, 0xCC00, 0xCC00, 0xCC00], color: '#fdfab7'	};
-    var s = { id: 's', size: 3, blocks: [0x06C0, 0x8C40, 0x6C00, 0x4620], color: '#7d7747'  };
-    var t = { id: 't', size: 3, blocks: [0x0E40, 0x4C40, 0x4E00, 0x4640], color: '#6e5461'	};
-    var z = { id: 'z', size: 3, blocks: [0x0C60, 0x4C80, 0xC600, 0x2640], color: '#7e714e'  };
+    var i = { id: 'i', size: 4, blocks: [0x0F00, 0x2222, 0x00F0, 0x4444], color: '#4e484a'  };
+    var j = { id: 'j', size: 3, blocks: [0x44C0, 0x8E00, 0x6440, 0x0E20], color: '#797546'  };
+    var l = { id: 'l', size: 3, blocks: [0x4460, 0x0E80, 0xC440, 0x2E00], color: '#6b565d'	};
+    var o = { id: 'o', size: 2, blocks: [0xCC00, 0xCC00, 0xCC00, 0xCC00], color: '#b4a28c'	};
+    var s = { id: 's', size: 3, blocks: [0x06C0, 0x8C40, 0x6C00, 0x4620], color: '#dcd493'  };
+    var t = { id: 't', size: 3, blocks: [0x0E40, 0x4C40, 0x4E00, 0x4640], color: '#c1bda4'	};
+    var z = { id: 'z', size: 3, blocks: [0x0C60, 0x4C80, 0xC600, 0x2640], color: '#8f8f77'  };
 
     //------------------------------------------------
     // do the bit manipulation and iterate through each
@@ -371,7 +371,7 @@
 
     function drawScore() {
       if (invalid.score) {
-        html('score', ("00000" + Math.floor(vscore)).slice(-5));
+        html('score', ("000000" + Math.floor(vscore)).slice(-6));
         invalid.score = false;
       }
     };

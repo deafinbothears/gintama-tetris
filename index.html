@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Gintama Puke Tetris</title>
-<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+<title>Gintama Nobunaga's Regurgitation</title>
+<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <link href="css/tetris.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -10,22 +10,27 @@
 <div id="mainContainer">
   
   <div id="menu">
-    <h1><img src="imgs/gintama-logo-gif.gif" alt="Gintama"><br/>Puke Tetris</h1>
+    <h1><span class="headerNob1">Nobunaga's</span><br/><span class="headerNob2">Regurgitation</span></h1>
     <p><canvas id="upcoming"></canvas></p>
-    <p id="start">Press 'Spacebar' to play</p>
+    <p>A drunk Nobunaga will vomit various shapes from above the screen. When you line them up in a row, the vomit will disappear. When your screen is filled with vomit, you lose.</p>
+    <p id="start">Press 'Spacebar' to play.</p>
   </div>
   
   <div id="tetrisGame">
   	<div id="numbers">
-        <div id="scoreArea"><p>Score:<br/><span id="score">00000</span></p></div>
-    	<div id="rowArea"><p>Rows:<br/><span id="rows">0</span></p></div>
+        <div id="scoreArea"><p>Score<br/><span id="score">000000</span></p></div>
+    	<div id="rowArea"><p>Rows<br/><span id="rows">0</span></p></div>
     </div>
-    <canvas id="canvas"> Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element </canvas>
+    <div id="game">
+    <canvas id="canvasTetris">Sorry, this example cannot be run because your browser does not support the &lt;canvas&gt; element </canvas>
+    </div>
   </div>
   
   <div class="clear">&nbsp;</div>
   
 </div>
+
+<div id="footer">deafinbothears.com</div>
 <script src="js/stats.js"></script> 
 <script src="js/tetris.js"></script>
 </body>
