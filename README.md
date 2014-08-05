@@ -1,4 +1,4 @@
-NOBUNAGA'S REGURGITATION
+Nobunaga's Regurgitation
 ========================
 
 An HTML5 Tetris Game originally created by @jakesgordon
