@@ -3,7 +3,7 @@ NOBUNAGA'S REGURGITATION
 
 An HTML5 Tetris Game originally created by @jakesgordon
 
- * [play the game](http://sandbox.deafinbothears.com/gintama-tetris/)
+ * [Play the game](http://sandbox.deafinbothears.com/gintama-tetris/)
  * Read a [blog article](http://codeincomplete.com/posts/2011/10/10/javascript_tetris/)
  * View the original [source](https://github.com/jakesgordon/javascript-tetris)
 
